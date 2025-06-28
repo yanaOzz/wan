@@ -1,36 +1,185 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <title>Foodie</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search"/>
-</head>
-<body>  
-   <nav> 
-    <div class="logo">Foodie</div>
-          <ul class="nav-bar"> 
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>Menu</li>
-            <li><a href=""></a>Recipes</li>
-            <li><a href=""></a>My Recipes</li>
-            <li>About Us</li>
-          </ul>
-   
-     <div class="search">
-        <form>
-            <span class="material-symbols-outlined">search</span>
-            <input class="search-input" type="search" placeholder="Search for your favorite">
-        </form>
-    </div>
-    </nav>
+    <title>Foodie</title>
+  </head>
 
+  <body>
 
-        
+    
+
+    <!-- Header section containing navigation and search -->
+    <header class="header">
+      <!-- Left section with logo -->
+      <div class="left-section">FOODIE</div>
+
+      <!-- Middle-left section with navigation links -->
+      <div class="left-middle-section">
+        <div class="nav-home">Home</div>
+        <div class="nav-menu">Menu</div>
+        <div class="nav-recipes">Recipes</div>
+        <div class="nav-my-recipes">My Recipes</div>
+        <div class="nav-about-us">About Us</div>
+      </div>
+
+      <!-- Middle-right section with search bar -->
+      <div class="right-middle-section">
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Search for a recipe..."
+        />
+        <button class="search-btn">
+          <img
+            class="search-icon"
+            src="assets\icons\search-interface-symbol.png"
+            alt="Search icon"
+          />
+        </button>
+      </div>
+
+      <!-- Right section with user profile -->
+      <div class="right-section">
+        <img
+          class="user-profile"
+          src="assets\icons\profile-user.png"
+          alt="User profile"
+        />
+      </div>
+    </header>
+
+    
+    <!-- Main content of the page -->
+    <main>
+      <!-- Hero section with large image and text overlay -->
+      <section class="hero-section">
+        <div class="hero-section-container">
+          <img
+            class="hero-image"
+            src="assets\bg-images\hero-image.jpg"
+            alt="Food presentation"
+          />
+          <div class="hero-text">Discover Your Next Favorite Recipe</div>
+        </div>
+      </section>
+
+      <!-- Create recipe section with image -->
+      <div class="create-recipe-container">
+        <div class="create-recipe-image-container">
+          <img
+            class="create-recipe-image"
+            src="assets\bg-images\create-recipe-image.jpg"
+            alt="Cooking ingredients"
+          />
+        </div>
+        <div class="create-recipe-text">
+          <div class="create-recipe-text-container">
+            <p class="main-text">Have an idea for dish Recipe?</p>
+            <p class="sub-text">Create and share your own recipe!</p>
+          </div>
+          <div class="create-recipe-btn-container">
+            <button class="create-recipe-btn">Create own recipe</button>
+          </div>
+        </div>
+      </div>
+
+    <div class="categories">
+        <h1>Categories</h1>
+        <div class="category-list-item">
+            <button class="category-button" onclick="navigateTo('breakfast.html')">Breakfast</button>
+            <button class="category-button" onclick="navigateTo('lunch.html')">Lunch</button>
+            <button class="category-button" onclick="navigateTo('dinner.html')">Dinner</button>
+            <button class="category-button" onclick="navigateTo('dessert.html')">Dessert</button>
+            <button class="category-button" onclick="navigateTo('snacks.html')">Snacks</button>
+        </div>
     </div>
-</header>
-</body>
+      
+               
+        <div class="featured-recipes">
+        <h1 class="featured-recipes-heading">Featured Recipes</h1>
+            <div class="featured-recipes-list">
+                <li class="Chinese-Noodles">
+                    <div class="recipe-image-container">
+                         <img src="assets\featured-recipes\chinese-noodles.jpg" alt="Chinese Noodles">
+                    </div>   
+                    <span>Chinese Noodles</span>
+                </li>
+                <li class="Carbonara-Pasta">
+                    <div class="recipe-image-container">
+                         <img src="assets\featured-recipes\pasta-white.jpg" alt="Carbonara">
+                    </div>
+                    <span>Carbonara</span>
+            </li>
+            <li class="Seafood-Paella">
+                    <div class="recipe-image-container">
+                        <img src="assets\featured-recipes\seafood-paella.jpg" alt="Seafood Paella">
+                    </div>
+                    <span >Seafood Paella</span>
+            </li>
+            <li class="Chicken-Curry">
+                    <div class="recipe-image-container">
+                         <img src="assets\featured-recipes\chicken-curry.jpg" alt="Chicken Curry">
+                    </div>
+                    <span>Chicken Curry</span>
+            </li>
+            <li class="Veggie-Salad">
+                    <div class="recipe-image-container">
+                        <img src="assets\featured-recipes\veggie salad.jpg" alt="Veggie Salad">
+                    </div>
+                    <span>Veggie Salad</span>
+            </li>
+            <li class="Steak-Veggie">
+                    <div class="recipe-image-container">
+                         <img src="assets\featured-recipes\steak-veggie.jpg" alt="Steak Veggie">
+                    </div>
+                    <span>Steak Veggie</span>
+            </li>
+            <li class="Pho-Soup">
+                    <div class="recipe-image-container">
+                        <img src="assets\featured-recipes\pho.jpg" alt="Pho Soup">
+                    </div>
+                    <span>Pho Soup</span>
+            </li>
+            <li class="shrimp-curry">
+                    <div class="recipe-image-container">
+                        <img src="assets\featured-recipes\shrimp-curry.jpg" alt="Shrimp Curry">
+                    </div>
+                    <span>Shrimp Curry</span>
+            </li>
+            <li class="Japchae">
+                    <div class="recipe-image-container">
+                        <img src="assets\featured-recipes\korean-japchae.jpg" alt="Japchae">
+                    </div>
+                    <span>Japchae</span>
+            </li>
+        </div>
+
+       
+
+        <div class="popular-recipes">
+        <h1 class="popular-recipes-heading">Popular Recipes</h1>
+            <div class="popular-recipes-list">
+                <li class="Pork Sisig">
+                    <div class="popular-recipe-image-container">
+                         <img src="assets\popular-recipes\pork-sisig.jpg" alt="Pork Sisig">
+                    <div class="popular-recipe-container-text">
+                        <p class="recipe-name">Pork Sisig</p>
+                        <p class="cook-prep-time">1hr and 20 mins</p>
+                        <p class="calorie-amount">700-800 KCAL</p>
+                        <P class="dish-portion">2 servings</P>
+                    </div>
+                    </div>   
+               </li>
+      </div>
+    </main>
+  </body>
 </html>
