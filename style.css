@@ -208,6 +208,7 @@ main {
   color: white;
   font-family: Poor Story, Arial;
   cursor: pointer;
+  
 }
 
 /* === FEATURED RECIPES === */
@@ -464,60 +465,20 @@ main {
 }
 
 .see-recipe-btn {
-  background-color: #1396b3;
+  padding: 12px 30px;
+  background-color: #f56565;
   color: white;
   border: none;
   border-radius: 35px;
-  padding: 8px 16px;
   cursor: pointer;
   font-size: 0.875rem;
   font-weight: 500;
   transition: 0.2s;
 }
 
-.see-more-button:hover {
+.see-recipe-btn:hover {
   background-color: #3182ce;
   box-shadow: 0 2px 4px rgba(49, 130, 206, 0.3);
-}
-
-/* === HERO SECTION === */
-.hero-section {
-  width: 1400px;
-  height: 700px;
-}
-
-.hero-section-container {
-  position: relative;
-  height: 100%;
-}
-
-.hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.7); /* Dim the image */
-  border-radius: 20px;
-  box-shadow:
-    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
-    inset -1px -1px 2px rgba(229, 229, 229, 0.5),
-    -1px 1px 2px rgba(229, 229, 229, 0.2),
-    1px -1px 2px rgba(229, 229, 229, 0.2),
-    -1px -1px 2px rgba(255, 255, 255, 0.9),
-    1px 1px 3px rgba(229, 229, 229, 0.9);
-}
-
-.hero-text {
-  font-family: Poor Story, Arial;
-  position: absolute;
-  font-size: 75px;
-  top: 80px;
-  left: 80px;
-  color: #f25d1d;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-  width: 600px;
-  z-index: 90;
 }
 
 .popular-recipe-container {
