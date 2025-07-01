@@ -1,460 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="/js/app.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="/js/app.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-    <title>Foodie</title>
-  </head>
 
-  <body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Foodie</title>
+</head>
+
+<body>
 
 
-    <!-- Header section containing navigation and search -->
-    <header class="header">
-      <!-- Left section with logo -->
-      <div class="left-section">FOODIE</div>
+  <!-- Header section containing navigation and search -->
+  <header class="header">
+    <!-- Left section with logo -->
+    <div class="left-section">FOODIE</div>
 
-      <!-- Middle-left section with navigation links -->
-      <div class="left-middle-section">
-        <div class="nav-home">Home</div>
-        <div class="nav-menu">Menu</div>
-        <div class="nav-recipes">Recipes</div>
-        <div class="nav-my-recipes">My Recipes</div>
-        <div class="nav-about-us">About Us</div>
+    <!-- Middle-left section with navigation links -->
+    <div class="left-middle-section">
+      <div class="nav-home">Home</div>
+      <div class="nav-menu">Menu</div>
+      <div class="nav-recipes">Recipes</div>
+      <div class="nav-my-recipes">My Recipes</div>
+      <div class="nav-about-us">About Us</div>
+    </div>
+
+    <!-- Middle-right section with search bar -->
+    <div class="right-middle-section">
+      <input class="search-bar" type="text" placeholder="Search for a recipe..." />
+      <button class="search-btn">
+        <img class="search-icon" src="assets\icons\search-interface-symbol.png" alt="Search icon" />
+      </button>
+    </div>
+
+    <!-- Right section with user profile -->
+    <div class="right-section">
+      <img class="user-profile" src="assets\icons\profile-user.png" alt="User profile" />
+    </div>
+  </header>
+
+
+  <!-- Main content of the page -->
+  <main>
+    <!-- Hero section with large image and text overlay -->
+    <section class="hero-section">
+      <div class="hero-section-container">
+        <img class="hero-image" src="assets\bg-images\hero-image.jpg" alt="Food presentation" />
+        <div class="hero-text">Discover Your Next Favorite Recipe</div>
       </div>
+    </section>
 
-      <!-- Middle-right section with search bar -->
-      <div class="right-middle-section">
-        <input
-          class="search-bar"
-          type="text"
-          placeholder="Search for a recipe..."
-        />
-        <button class="search-btn">
-          <img
-            class="search-icon"
-            src="assets\icons\search-interface-symbol.png"
-            alt="Search icon"
-          />
-        </button>
+    <!-- Create recipe section with image -->
+    <div class="create-recipe-container">
+      <div class="create-recipe-image-container">
+        <img class="create-recipe-image" src="assets\bg-images\create-recipe-image.jpg" alt="Cooking ingredients" />
       </div>
-
-      <!-- Right section with user profile -->
-      <div class="right-section">
-        <img
-          class="user-profile"
-          src="assets\icons\profile-user.png"
-          alt="User profile"
-        />
-      </div>
-    </header>
-
-    
-    <!-- Main content of the page -->
-    <main>
-      <!-- Hero section with large image and text overlay -->
-      <section class="hero-section">
-        <div class="hero-section-container">
-          <img
-            class="hero-image"
-            src="assets\bg-images\hero-image.jpg"
-            alt="Food presentation"
-          />
-          <div class="hero-text">Discover Your Next Favorite Recipe</div>
+      <div class="create-recipe-text">
+        <div class="create-recipe-text-container">
+          <p class="main-text">Have an idea for dish Recipe?</p>
+          <p class="sub-text">Create and share your own recipe!</p>
         </div>
-      </section>
-
-      <!-- Create recipe section with image -->
-      <div class="create-recipe-container">
-        <div class="create-recipe-image-container">
-          <img
-            class="create-recipe-image"
-            src="assets\bg-images\create-recipe-image.jpg"
-            alt="Cooking ingredients"
-          />
-        </div>
-        <div class="create-recipe-text">
-          <div class="create-recipe-text-container">
-            <p class="main-text">Have an idea for dish Recipe?</p>
-            <p class="sub-text">Create and share your own recipe!</p>
-          </div>
-          <div class="create-recipe-btn-container">
-            <button class="create-recipe-btn">Create own recipe</button>
-          </div>
+        <div class="create-recipe-btn-container">
+          <button class="create-recipe-btn">Create own recipe</button>
         </div>
       </div>
+    </div>
 
     <div class="categories">
-        <h1>Categories</h1>
-        <div class="category-list-item">
-            <button class="category-button" onclick="navigateTo('breakfast.html')">Breakfast</button>
-            <button class="category-button" onclick="navigateTo('lunch.html')">Lunch</button>
-            <button class="category-button" onclick="navigateTo('dinner.html')">Dinner</button>
-            <button class="category-button" onclick="navigateTo('dessert.html')">Dessert</button>
-            <button class="category-button" onclick="navigateTo('snacks.html')">Snacks</button>
-        </div>
+      <h1>Categories</h1>
+      <p>Search by what's in your fridge — chicken, seafood, veggies, pasta, and more.</p>
+      <div class="category-list-item">
+        <button class="category-button" onclick="navigateTo('breakfast.html')">Chicken</button>
+        <button class="category-button" onclick="navigateTo('lunch.html')">Pork</button>
+        <button class="category-button" onclick="navigateTo('dinner.html')">Beef</button>
+        <button class="category-button" onclick="navigateTo('dessert.html')">Dessert</button>
+        <button class="category-button" onclick="navigateTo('snacks.html')">Vegetables</button>
+        <button class="category-button" onclick="navigateTo('snacks.html')">Fish</button>
+        <button class="category-button" onclick="navigateTo('snacks.html')">Eggs</button>
+      </div>
     </div>
-      
-               
-        <div class="featured-recipes">
-        <h1 class="featured-recipes-heading">Featured Recipes</h1>
-            <div class="featured-recipes-list">
-                <li class="Chinese-Noodles">
-                    <div class="recipe-image-container">
-                         <img src="assets\featured-recipes\chinese-noodles.jpg" alt="Chinese Noodles">
-                    </div>   
-                    <span>Chinese Noodles</span>
-                </li>
-                <li class="Carbonara-Pasta">
-                    <div class="recipe-image-container">
-                         <img src="assets\featured-recipes\pasta-white.jpg" alt="Carbonara">
-                    </div>
-                    <span>Carbonara</span>
-            </li>
-            <li class="Seafood-Paella">
-                    <div class="recipe-image-container">
-                        <img src="assets\featured-recipes\seafood-paella.jpg" alt="Seafood Paella">
-                    </div>
-                    <span >Seafood Paella</span>
-            </li>
-            <li class="Chicken-Curry">
-                    <div class="recipe-image-container">
-                         <img src="assets\featured-recipes\chicken-curry.jpg" alt="Chicken Curry">
-                    </div>
-                    <span>Chicken Curry</span>
-            </li>
-            <li class="Veggie-Salad">
-                    <div class="recipe-image-container">
-                        <img src="assets\featured-recipes\veggie salad.jpg" alt="Veggie Salad">
-                    </div>
-                    <span>Veggie Salad</span>
-            </li>
-            <li class="Steak-Veggie">
-                    <div class="recipe-image-container">
-                         <img src="assets\featured-recipes\steak-veggie.jpg" alt="Steak Veggie">
-                    </div>
-                    <span>Steak Veggie</span>
-            </li>
-            <li class="Pho-Soup">
-                    <div class="recipe-image-container">
-                        <img src="assets\featured-recipes\pho.jpg" alt="Pho Soup">
-                    </div>
-                    <span>Pho Soup</span>
-            </li>
-            <li class="shrimp-curry">
-                    <div class="recipe-image-container">
-                        <img src="assets\featured-recipes\shrimp-curry.jpg" alt="Shrimp Curry">
-                    </div>
-                    <span>Shrimp Curry</span>
-            </li>
-            <li class="Japchae">
-                    <div class="recipe-image-container">
-                        <img src="assets\featured-recipes\korean-japchae.jpg" alt="Japchae">
-                    </div>
-                    <span>Japchae</span>
-            </li>
-        </div>
+
+    <div class="featured-recipes">
+      <div class="featured-recipes-heading">
+        <h1>Featured Recipes</h1>
+        <p>Spice up your menu with these must-try meals!</p>
+      </div>
+      <div class="featured-recipes-container">
+        <ul class="featured-recipes-list">
+          <li class="Chinese-Noodles">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/chinese-noodles.jpg" alt="Chinese Noodles">
+            </div>
+            <span>Chinese Noodles</span>
+          </li>
+          <li class="Carbonara-Pasta">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/pasta-white.jpg" alt="Carbonara">
+            </div>
+            <span>Carbonara</span>
+          </li>
+          <li class="Seafood-Paella">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/seafood-paella.jpg" alt="Seafood Paella">
+            </div>
+            <span>Seafood Paella</span>
+          </li>
+          <li class="Chicken-Curry">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/chicken-curry.jpg" alt="Chicken Curry">
+            </div>
+            <span>Chicken Curry</span>
+          </li>
+          <li class="Veggie-Salad">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/veggie salad.jpg" alt="Veggie Salad">
+            </div>
+            <span>Veggie Salad</span>
+          </li>
+          <li class="Steak-Veggie">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/steak-veggie.jpg" alt="Steak Veggie">
+            </div>
+            <span>Steak Veggie</span>
+          </li>
+          <li class="Pho-Soup">
+            <div class="recipe-image-container">
+              <img src="assets/featured-recipes/pho.jpg" alt="Pho Soup">
+            </div>
+            <span>Pho Soup</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
 
     <div class="latest-recipes">
-    <h1 class="latest-recipes-heading">Latest Recipes</h1>
-    <div class="latest-recipes-list">
+      <h1 class="latest-recipes-heading">Latest Recipes</h1>
+      <P>Craving something new? Dive into our handpicked selection of the latest recipes, crafted with fresh ideas and
+        bold flavours. </P>
+      <div class="latest-recipes-list">
         <!-- Pork Sisig Card -->
         <li class="Pork-Sisig recipe-card">
-            <div class="latest-recipe-image-container">
-                <img src="assets/latest-recipes/pork-sisig.jpg" alt="Pork Sisig">
-                <div class="favorite-icon">
-                    <div class="heart-circle">
-                        <span class="heart">❤</span>
-                    </div>
-                </div>
+          <div class="latest-recipe-image-container">
+            <img src="assets/latest-recipes/pork-sisig.jpg" alt="Pork Sisig">
+            <div class="favorite-icon">
+              <div class="heart-circle">
+                <span class="heart">❤</span>
+              </div>
             </div>
-            <div class="latest-recipe-container-text">
-                <p class="recipe-name">Pork Sisig</p>
-                <div class="recipe-meta">
-                    <p class="cook-prep-time">1hr 20mins</p>
-                    <p class="calorie-amount">700-800 KCAL</p>
-                    <p class="dish-portion">2 servings</p>
-                </div>
-                <div class="uploader-section">
-                    <p class="uploader-name">Uploaded by Chef John</p>
-                    <button class="see-recipe-btn">See  Recipe</button>
-                </div>
+            <div class="ratings">
+              <span class="star">★★★★★</span>
             </div>
+          </div>
+          <div class="latest-recipe-container-text">
+            <p class="recipe-name">Pork Sisig</p>
+            <div class="recipe-meta">
+              <p class="cook-prep-time">1hr 20mins</p>
+              <p class="calorie-amount">700-800 KCAL</p>
+              <p class="dish-portion">2 servings</p>
+            </div>
+            <div class="uploader-section">
+              <p class="uploader-name">Uploaded by Chef John</p>
+              <button class="see-recipe-btn">See Recipe</button>
+            </div>
+          </div>
         </li>
         <li class="Avocado-Toast recipe-card">
-            <div class="latest-recipe-image-container">
-                <img src="assets/latest-recipes/avocado-toast-egg.jpg" alt="Avocado Toast">
-                <div class="favorite-icon">
-                    <div class="heart-circle">
-                        <span class="heart">❤</span>
-                    </div>
-                </div>
+          <div class="latest-recipe-image-container">
+            <img src="assets/latest-recipes/avocado-toast-egg.jpg" alt="Avocado Toast">
+            <div class="favorite-icon">
+              <div class="heart-circle">
+                <span class="heart">❤</span>
+              </div>
             </div>
-            <div class="latest-recipe-container-text">
-                <p class="recipe-name">Avocado Toast</p>
-                <div class="recipe-meta">
-                    <p class="cook-prep-time">10mins</p>
-                    <p class="calorie-amount">250-300 KCAL</p>
-                    <p class="dish-portion">1 serving</p>
-                </div>
-                <div class="uploader-section">
-                    <p class="uploader-name">Uploaded by Chef Lily</p>
-                    <button class="see-recipe-btn">See Recipe</button>
-                </div>
+            <div class="ratings">
+              <span class="star">★★★★★</span>
             </div>
+          </div>
+          <div class="latest-recipe-container-text">
+            <p class="recipe-name">Avocado Toast</p>
+            <div class="recipe-meta">
+              <p class="cook-prep-time">10mins</p>
+              <p class="calorie-amount">250-300 KCAL</p>
+              <p class="dish-portion">1 serving</p>
+            </div>
+            <div class="uploader-section">
+              <p class="uploader-name">Uploaded by Chef Lily</p>
+              <button class="see-recipe-btn">See Recipe</button>
+            </div>
+          </div>
         </li>
         <li class="Chicken-Stir-Fry recipe-card">
-            <div class="latest-recipe-image-container">
-                <img src="assets/latest-recipes/chicken-stir-fry.jpg" alt="Chicken Stir Fry">
-                <div class="favorite-icon">
-                    <div class="heart-circle">
-                        <span class="heart">❤</span>
-                    </div>
-                </div>
+          <div class="latest-recipe-image-container">
+            <img src="assets/latest-recipes/chicken-stir-fry.jpg" alt="Chicken Stir Fry">
+            <div class="favorite-icon">
+              <div class="heart-circle">
+                <span class="heart">❤</span>
+              </div>
             </div>
-            <div class="latest-recipe-container-text">
-                <p class="recipe-name">Chicken Stir Fry</p>
-                <div class="recipe-meta">
-                    <p class="cook-prep-time">25mins</p>
-                    <p class="calorie-amount">400-500 KCAL</p>
-                    <p class="dish-portion">2 servings</p>
-                </div>
-                <div class="uploader-section">
-                    <p class="uploader-name">Uploaded by Chef Alex</p>
-                    <button class="see-recipe-btn">See Recipe</button>
-                </div>
+            <div class="ratings">
+              <span class="star">★★★★★</span>
             </div>
+          </div>
+          <div class="latest-recipe-container-text">
+            <p class="recipe-name">Chicken Stir Fry</p>
+            <div class="recipe-meta">
+              <p class="cook-prep-time">25mins</p>
+              <p class="calorie-amount">400-500 KCAL</p>
+              <p class="dish-portion">2 servings</p>
+            </div>
+            <div class="uploader-section">
+              <p class="uploader-name">Uploaded by Chef Alex</p>
+              <button class="see-recipe-btn">See Recipe</button>
+            </div>
+          </div>
         </li>
         <li class="Beef-Tacos recipe-card">
-            <div class="latest-recipe-image-container">
-                <img src="assets/latest-recipes/beef-tacos.jpg" alt="Beef Tacos">
-                <div class="favorite-icon">
-                    <div class="heart-circle">
-                        <span class="heart">❤</span>
-                    </div>
-                </div>
+          <div class="latest-recipe-image-container">
+            <img src="assets/latest-recipes/beef-tacos.jpg" alt="Beef Tacos">
+            <div class="favorite-icon">
+              <div class="heart-circle">
+                <span class="heart">❤</span>
+              </div>
             </div>
-            <div class="latest-recipe-container-text">
-                <p class="recipe-name">Beef Tacos</p>
-                <div class="recipe-meta">
-                    <p class="cook-prep-time">30mins</p>
-                    <p class="calorie-amount">500-600 KCAL</p>
-                    <p class="dish-portion">3 servings</p>
-                </div>
-                <div class="uploader-section">
-                    <p class="uploader-name">Uploaded by Chef Maria</p>
-                    <button class="see-recipe-btn">See Recipe</button>
-                </div>
+            <div class="ratings">
+              <span class="star">★★★★★</span>
             </div>
+          </div>
+          <div class="latest-recipe-container-text">
+            <p class="recipe-name">Beef Tacos</p>
+            <div class="recipe-meta">
+              <p class="cook-prep-time">30mins</p>
+              <p class="calorie-amount">500-600 KCAL</p>
+              <p class="dish-portion">3 servings</p>
+            </div>
+            <div class="uploader-section">
+              <p class="uploader-name">Uploaded by Chef Maria</p>
+              <button class="see-recipe-btn">See Recipe</button>
+            </div>
+          </div>
         </li>
         <li class="Veggie-Fried-Rice recipe-card">
-            <div class="latest-recipe-image-container">
-                <img src="assets/latest-recipes/veggie-fried-rice.jpg" alt="Veggie Fried Rice">
-                <div class="favorite-icon">
-                    <div class="heart-circle">
-                        <span class="heart">❤</span>
-                    </div>
-                </div>
+          <div class="latest-recipe-image-container">
+            <img src="assets/latest-recipes/veggie-fried-rice.jpg" alt="Veggie Fried Rice">
+            <div class="favorite-icon">
+              <div class="heart-circle">
+                <span class="heart">❤</span>
+              </div>
             </div>
-            <div class="latest-recipe-container-text">
-                <p class="recipe-name">Veggie Fried Rice</p>
-                <div class="recipe-meta">
-                    <p class="cook-prep-time">20mins</p>
-                    <p class="calorie-amount">350-450 KCAL</p>
-                    <p class="dish-portion">2 servings</p>
-                </div>
-                <div class="uploader-section">
-                    <p class="uploader-name">Uploaded by Chef Sam</p>
-                    <button class="see-recipe-btn">See Recipe</button>
-                </div>
+            <div class="ratings">
+              <span class="star">★★★★★</span>
             </div>
+          </div>
+          <div class="latest-recipe-container-text">
+            <p class="recipe-name">Veggie Fried Rice</p>
+            <div class="recipe-meta">
+              <p class="cook-prep-time">20mins</p>
+              <p class="calorie-amount">350-450 KCAL</p>
+              <p class="dish-portion">2 servings</p>
+            </div>
+            <div class="uploader-section">
+              <p class="uploader-name">Uploaded by Chef Sam</p>
+              <button class="see-recipe-btn">See Recipe</button>
+            </div>
+          </div>
         </li>
         <li class="Pork-Adobo recipe-card">
-            <div class="latest-recipe-image-container">
-                <img src="assets/latest-recipes/pork-adobo.jpg" alt="Pork Adobo">
-                <div class="favorite-icon">
-                    <div class="heart-circle">
-                        <span class="heart">❤</span>
-                    </div>
-                </div>
+          <div class="latest-recipe-image-container">
+            <img src="assets/latest-recipes/pork-adobo.jpg" alt="Pork Adobo">
+            <div class="favorite-icon">
+              <div class="heart-circle">
+                <span class="heart">❤</span>
+              </div>
             </div>
-            
-            <div class="latest-recipe-container-text">
-                <p class="recipe-name">Pork Adobo</p>
-                <div class="recipe-meta">
-                    <p class="cook-prep-time">1hr</p>
-                    <p class="calorie-amount">600-700 KCAL</p>
-                    <p class="dish-portion">3 servings</p>
-                </div>
-                <div class="uploader-section">
-                    <p class="uploader-name">Uploaded by Chef Sam</p>
-                    <button class="see-v-btn">See Recipe</button>
-                </div>
+            <div class="ratings">
+              <span class="star">★★★★★</span>
             </div>
+          </div>
+
+          <div class="latest-recipe-container-text">
+            <p class="recipe-name">Pork Adobo</p>
+            <div class="recipe-meta">
+              <p class="cook-prep-time">1hr</p>
+              <p class="calorie-amount">600-700 KCAL</p>
+              <p class="dish-portion">3 servings</p>
+            </div>
+            <div class="uploader-section">
+              <p class="uploader-name">Uploaded by Chef Sam</p>
+              <button class="see-recipe-btn">See Recipe</button>
+            </div>
+          </div>
         </li>
+      </div>
     </div>
+    <div class="popular-recipes-section">
+      <div class="popular-recipes-heading">
+        <p class="popular-recipes-main-heading">Popular Recipes</p>
+        <p class="popular-recipes-sub-heading">These viral-worthy dishes have stolen hearts (and stomachs)! Get the
+          recipes behind everyone's favorite foodie moments.</p>
+      </div>
 
-    <!-- Margaretta Classic Pizza -->
-<div class="popular-recipe-container margaretta-pizza">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\classic-pizza.jpg" alt="Margaretta Classic Pizza" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Margaretta Classic Pizza</p>
-      <p class="recipe-description">
-        A simple yet iconic Italian pizza featuring a crispy crust, tangy tomato sauce, creamy fresh mozzarella, and fragrant basil leaves. It’s a timeless favorite that highlights fresh, high-quality ingredients.
-      </p>
+      <section class="popular-recipes-grid">
+        <!-- Margaretta Pizza -->
+        <div class="popular-recipe-card">
+          <div class="popular-recipe-image-container">
+            <img class="popular-recipe-image" src="assets/popular-recipes/classic-pizza.jpg"
+              alt="Margaretta Classic Pizza" />
+          </div>
+          <div class="popular-recipe-content">
+            <div class="popular-recipe-info">
+              <p class="popular-recipe-name">Margaretta Classic Pizza</p>
+              <p class="popular-recipe-description">
+                A simple yet iconic Italian pizza featuring a crispy crust, tangy tomato sauce, creamy fresh
+                mozzarella, and fragrant basil leaves.
+              </p>
+            </div>
+            <div class="popular-recipe-btn-container">
+              <span class="popular-recipe-star">★★★★★</span>
+              <button class="popular-recipe-btn">View recipe</button>
+            </div>
+          </div>
+        </div>
+        <!-- Classic Chocolate Cookie -->
+        <div class="popular-recipe-card">
+          <div class="popular-recipe-image-container">
+            <img class="popular-recipe-image" src="assets\popular-recipes\cookie.jpg" alt="Classic Chocolate Cookie" />
+          </div>
+          <div class="popular-recipe-content">
+            <div class="popular-recipe-info">
+              <p class="popular-recipe-name">Classic Chocolate Cookie</p>
+              <p class="popular-recipe-description">
+                Chewy, gooey, and packed with chocolate chips—this classic cookie is a timeless treat for every sweet
+                tooth.
+              </p>
+            </div>
+            <div class="popular-recipe-btn-container">
+              <span class="popular-recipe-star">★★★★★</span>
+              <button class="popular-recipe-btn">View recipe</button>
+            </div>
+          </div>
+        </div>
+        <!-- Cucumber Salad -->
+        <div class="popular-recipe-card">
+          <div class="popular-recipe-image-container">
+            <img class="popular-recipe-image" src="assets\popular-recipes\cucumber salad.jpg" alt="Cucumber Salad" />
+          </div>
+          <div class="popular-recipe-content">
+            <div class="popular-recipe-info">
+              <p class="popular-recipe-name">Cucumber Salad</p>
+              <p class="popular-recipe-description">
+                A refreshing blend of sliced cucumbers, vinegar, and herbs, perfect for light lunches or as a crisp
+                side dish.
+              </p>
+            </div>
+            <div class="popular-recipe-btn-container">
+              <span class="popular-recipe-star">★★★★★</span>
+              <button class="popular-recipe-btn">View recipe</button>
+            </div>
+          </div>
+        </div>
+        <!-- Korean Chicken Wings -->
+        <div class="popular-recipe-card">
+          <div class="popular-recipe-image-container">
+            <img class="popular-recipe-image" src="assets\popular-recipes\korean-chicken-wings.jpg"
+              alt="Korean Chicken Wings" />
+          </div>
+          <div class="popular-recipe-content">
+            <div class="popular-recipe-info">
+              <p class="popular-recipe-name">Korean Chicken Wings</p>
+              <p class="popular-recipe-description">
+                Crispy wings tossed in a sticky, spicy gochujang sauce—sweet, savoury, and irresistibly bold.
+              </p>
+            </div>
+            <div class="popular-recipe-btn-container">
+              <span class="popular-recipe-star">★★★★★</span>
+              <button class="popular-recipe-btn">View recipe</button>
+            </div>
+          </div>
+        </div>
+        <!-- Pasta Fettuccine -->
+        <div class="popular-recipe-card">
+          <div class="popular-recipe-image-container">
+            <img class="popular-recipe-image" src="assets\popular-recipes\pasta-fettuccine.jpg"
+              alt="Pasta Fettuccine" />
+          </div>
+          <div class="popular-recipe-content">
+            <div class="popular-recipe-info">
+              <p class="popular-recipe-name">Pasta Fettuccine</p>
+              <p class="popular-recipe-description">
+                Silky strands of fettuccine pasta coated in a creamy alfredo sauce, finished with parmesan and herbs.
+              </p>
+            </div>
+            <div class="popular-recipe-btn-container">
+              <span class="popular-recipe-star">★★★★★</span>
+              <button class="popular-recipe-btn">View recipe</button>
+            </div>
+          </div>
+        </div>
+        <!-- Sinigang -->
+        <div class="popular-recipe-card">
+          <div class="popular-recipe-image-container">
+            <img class="popular-recipe-image" src="assets\popular-recipes\sinigang.jpg" alt="Sinigang" />
+          </div>
+          <div class="popular-recipe-content">
+            <div class="popular-recipe-info">
+              <p class="popular-recipe-name">Sinigang</p>
+              <p class="popular-recipe-description">
+                A classic Filipino sour soup made with pork or shrimp, tamarind broth, and fresh vegetables—warm,
+                tangy, and comforting.
+              </p>
+            </div>
+            <div class="popular-recipe-btn-container">
+              <span class="popular-recipe-star">★★★★★</span>
+              <button class="popular-recipe-btn">View recipe</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-     <!-- Classic Chocolate Cookie -->
-<div class="popular-recipe-container classic-chocolate-cookie">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\cookie.jpg" alt="Classic Chocolate Cookie" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Classic Chocolate Cookie</p>
-      <p class="recipe-description">Chewy, gooey, and packed with chocolate chips—this classic cookie is a timeless treat for every sweet tooth.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Cucumber Salad -->
-<div class="popular-recipe-container cucumber-salad">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\cucumber salad.jpg" alt="Cucumber Salad" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Cucumber Salad</p>
-      <p class="recipe-description">A refreshing blend of sliced cucumbers, vinegar, and herbs, perfect for light lunches or as a crisp side dish.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Korean Chicken Wings -->
-<div class="popular-recipe-container korean-chicken-wings">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\korean-chicken-wings.jpg" alt="Korean Chicken Wings" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Korean Chicken Wings</p>
-      <p class="recipe-description">Crispy wings tossed in a sticky, spicy gochujang sauce—sweet, savoury, and irresistibly bold.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Pasta Fettuccine -->
-<div class="popular-recipe-container pasta-fettuccine">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\pasta-fettuccine.jpg" alt="Pasta Fettuccine" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Pasta Fettuccine</p>
-      <p class="recipe-description">Silky strands of fettuccine pasta coated in a creamy alfredo sauce, finished with parmesan and herbs.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Prawns with Chimichurri -->
-<div class="popular-recipe-container prawns-chimichurri">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\prawns-kimichurii.jpg" alt="Prawns with Chimichurri" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Prawns with Chimichurri</p>
-      <p class="recipe-description">Grilled prawns drizzled with fresh chimichurri sauce, combining herbs, garlic, and olive oil for a zesty kick.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Salmon with Watercress -->
-<div class="popular-recipe-container salmon-watercress">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\salmon-watercress-salad.jpg" alt="Salmon with Watercress" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Salmon with Watercress</p>
-      <p class="recipe-description">Seared salmon served on a bed of peppery watercress, finished with a citrus vinaigrette for freshness.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Samosas -->
-<div class="popular-recipe-container samosas">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\samosas.jpg" alt="Samosas" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Samosas</p>
-      <p class="recipe-description">Crispy pastry pockets filled with spiced potatoes, peas, and herbs—perfectly golden and snack-worthy.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-<!-- Sinigang -->
-<div class="popular-recipe-container sinigang">
-  <div class="popular-recipe-image-container">
-    <img class="popular-recipe-image" src="assets\popular-recipes\sinigang.jpg" alt="Sinigang" />
-  </div>
-  <div class="popular-recipe-text">
-    <div class="popular-recipe-text-container">
-      <p class="recipe-name">Sinigang</p>
-      <p class="recipe-description">A classic Filipino sour soup made with pork or shrimp, tamarind broth, and fresh vegetables—warm, tangy, and comforting.</p>
-    </div>
-    <div class="popular-recipe-btn-container">
-      <button class="popular-recipe-btn">View recipe</button>
-    </div>
-  </div>
-</div>
-
-  </div>     
-</main>
+  </main>
 </body>
+
 </html>
 
 <!-- Footer -->
@@ -463,4 +448,5 @@
 </footer>
 
 </body>
+
 </html>
